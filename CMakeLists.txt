@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(vie_fourmi CXX)
+project(ant_life CXX)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -16,7 +16,7 @@ endif()
 
 # === Server ===
 file(GLOB SOURCES "src/*.cpp")
-add_executable(vie_fourmi ${SOURCES})
+add_executable(ant_life ${SOURCES})
 include_directories(include)
 
 # Enable detailed build output

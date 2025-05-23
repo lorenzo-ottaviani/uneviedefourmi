@@ -51,5 +51,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/vie_fourmi.dir/DependInfo.cmake"
+  "CMakeFiles/ant_life.dir/DependInfo.cmake"
   )

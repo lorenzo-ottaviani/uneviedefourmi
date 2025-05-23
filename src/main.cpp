@@ -9,6 +9,10 @@
 
 #include <iostream>
 
+#include "ant.hpp"
+#include "anthill.hpp"
+#include "room.hpp"
+
 int main() {
     std::cout << "Hello, it's an Ant World !" << std::endl;
 

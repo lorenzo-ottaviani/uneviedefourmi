@@ -119,24 +119,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named vie_fourmi
+# Target rules for targets named ant_life
 
 # Build rule for target.
-vie_fourmi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vie_fourmi
-.PHONY : vie_fourmi
+ant_life: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ant_life
+.PHONY : ant_life
 
 # fast build rule for target.
-vie_fourmi/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/build
-.PHONY : vie_fourmi/fast
+ant_life/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/build
+.PHONY : ant_life/fast
 
 src/ant.obj: src/ant.cpp.obj
 .PHONY : src/ant.obj
 
 # target to build an object file
 src/ant.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/ant.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/ant.cpp.obj
 .PHONY : src/ant.cpp.obj
 
 src/ant.i: src/ant.cpp.i
@@ -144,7 +144,7 @@ src/ant.i: src/ant.cpp.i
 
 # target to preprocess a source file
 src/ant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/ant.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/ant.cpp.i
 .PHONY : src/ant.cpp.i
 
 src/ant.s: src/ant.cpp.s
@@ -152,7 +152,7 @@ src/ant.s: src/ant.cpp.s
 
 # target to generate assembly for a file
 src/ant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/ant.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/ant.cpp.s
 .PHONY : src/ant.cpp.s
 
 src/anthill.obj: src/anthill.cpp.obj
@@ -160,7 +160,7 @@ src/anthill.obj: src/anthill.cpp.obj
 
 # target to build an object file
 src/anthill.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/anthill.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/anthill.cpp.obj
 .PHONY : src/anthill.cpp.obj
 
 src/anthill.i: src/anthill.cpp.i
@@ -168,7 +168,7 @@ src/anthill.i: src/anthill.cpp.i
 
 # target to preprocess a source file
 src/anthill.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/anthill.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/anthill.cpp.i
 .PHONY : src/anthill.cpp.i
 
 src/anthill.s: src/anthill.cpp.s
@@ -176,7 +176,7 @@ src/anthill.s: src/anthill.cpp.s
 
 # target to generate assembly for a file
 src/anthill.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/anthill.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/anthill.cpp.s
 .PHONY : src/anthill.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -184,7 +184,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -192,7 +192,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -200,7 +200,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/room.obj: src/room.cpp.obj
@@ -208,7 +208,7 @@ src/room.obj: src/room.cpp.obj
 
 # target to build an object file
 src/room.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/room.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/room.cpp.obj
 .PHONY : src/room.cpp.obj
 
 src/room.i: src/room.cpp.i
@@ -216,7 +216,7 @@ src/room.i: src/room.cpp.i
 
 # target to preprocess a source file
 src/room.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/room.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/room.cpp.i
 .PHONY : src/room.cpp.i
 
 src/room.s: src/room.cpp.s
@@ -224,7 +224,7 @@ src/room.s: src/room.cpp.s
 
 # target to generate assembly for a file
 src/room.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/room.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/room.cpp.s
 .PHONY : src/room.cpp.s
 
 # Help Target
@@ -235,7 +235,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... vie_fourmi
+	@echo ... ant_life
 	@echo ... src/ant.obj
 	@echo ... src/ant.i
 	@echo ... src/ant.s
