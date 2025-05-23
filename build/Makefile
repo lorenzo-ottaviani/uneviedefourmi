@@ -131,29 +131,53 @@ vie_fourmi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/build
 .PHONY : vie_fourmi/fast
 
-src/Ant.obj: src/Ant.cpp.obj
-.PHONY : src/Ant.obj
+src/ant.obj: src/ant.cpp.obj
+.PHONY : src/ant.obj
 
 # target to build an object file
-src/Ant.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/Ant.cpp.obj
-.PHONY : src/Ant.cpp.obj
+src/ant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/ant.cpp.obj
+.PHONY : src/ant.cpp.obj
 
-src/Ant.i: src/Ant.cpp.i
-.PHONY : src/Ant.i
+src/ant.i: src/ant.cpp.i
+.PHONY : src/ant.i
 
 # target to preprocess a source file
-src/Ant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/Ant.cpp.i
-.PHONY : src/Ant.cpp.i
+src/ant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/ant.cpp.i
+.PHONY : src/ant.cpp.i
 
-src/Ant.s: src/Ant.cpp.s
-.PHONY : src/Ant.s
+src/ant.s: src/ant.cpp.s
+.PHONY : src/ant.s
 
 # target to generate assembly for a file
-src/Ant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/Ant.cpp.s
-.PHONY : src/Ant.cpp.s
+src/ant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/ant.cpp.s
+.PHONY : src/ant.cpp.s
+
+src/anthill.obj: src/anthill.cpp.obj
+.PHONY : src/anthill.obj
+
+# target to build an object file
+src/anthill.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/anthill.cpp.obj
+.PHONY : src/anthill.cpp.obj
+
+src/anthill.i: src/anthill.cpp.i
+.PHONY : src/anthill.i
+
+# target to preprocess a source file
+src/anthill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/anthill.cpp.i
+.PHONY : src/anthill.cpp.i
+
+src/anthill.s: src/anthill.cpp.s
+.PHONY : src/anthill.s
+
+# target to generate assembly for a file
+src/anthill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/anthill.cpp.s
+.PHONY : src/anthill.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -179,6 +203,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/room.obj: src/room.cpp.obj
+.PHONY : src/room.obj
+
+# target to build an object file
+src/room.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/room.cpp.obj
+.PHONY : src/room.cpp.obj
+
+src/room.i: src/room.cpp.i
+.PHONY : src/room.i
+
+# target to preprocess a source file
+src/room.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/room.cpp.i
+.PHONY : src/room.cpp.i
+
+src/room.s: src/room.cpp.s
+.PHONY : src/room.s
+
+# target to generate assembly for a file
+src/room.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vie_fourmi.dir\build.make CMakeFiles/vie_fourmi.dir/src/room.cpp.s
+.PHONY : src/room.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,12 +236,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... vie_fourmi
-	@echo ... src/Ant.obj
-	@echo ... src/Ant.i
-	@echo ... src/Ant.s
+	@echo ... src/ant.obj
+	@echo ... src/ant.i
+	@echo ... src/ant.s
+	@echo ... src/anthill.obj
+	@echo ... src/anthill.i
+	@echo ... src/anthill.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/room.obj
+	@echo ... src/room.i
+	@echo ... src/room.s
 .PHONY : help
 
 
