@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ant_life.dir/src/anthill.cpp.obj.d"
   "CMakeFiles/ant_life.dir/src/main.cpp.obj"
   "CMakeFiles/ant_life.dir/src/main.cpp.obj.d"
-  "CMakeFiles/ant_life.dir/src/room.cpp.obj"
-  "CMakeFiles/ant_life.dir/src/room.cpp.obj.d"
   "ant_life.exe"
   "ant_life.exe.manifest"
   "ant_life.pdb"

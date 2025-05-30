@@ -14,7 +14,7 @@ if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     add_compile_options(-finput-charset=UTF-8 -fexec-charset=UTF-8)
 endif()
 
-# === Server ===
+# === Program ===
 file(GLOB SOURCES "src/*.cpp")
 add_executable(ant_life ${SOURCES})
 include_directories(include)

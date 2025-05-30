@@ -203,30 +203,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/room.obj: src/room.cpp.obj
-.PHONY : src/room.obj
-
-# target to build an object file
-src/room.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/room.cpp.obj
-.PHONY : src/room.cpp.obj
-
-src/room.i: src/room.cpp.i
-.PHONY : src/room.i
-
-# target to preprocess a source file
-src/room.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/room.cpp.i
-.PHONY : src/room.cpp.i
-
-src/room.s: src/room.cpp.s
-.PHONY : src/room.s
-
-# target to generate assembly for a file
-src/room.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ant_life.dir\build.make CMakeFiles/ant_life.dir/src/room.cpp.s
-.PHONY : src/room.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -245,9 +221,6 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/room.obj
-	@echo ... src/room.i
-	@echo ... src/room.s
 .PHONY : help
 
 

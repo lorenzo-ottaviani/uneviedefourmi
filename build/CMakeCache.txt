@@ -81,7 +81,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Projets_GIT/uneviedefourmi/build/CMak
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/vie_fourmi
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/ant_life
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/msys64/mingw64/bin/ld.exe
@@ -218,15 +218,6 @@ ant_life_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 ant_life_SOURCE_DIR:STATIC=C:/Projets_GIT/uneviedefourmi
-
-//Value Computed by CMake
-vie_fourmi_BINARY_DIR:STATIC=C:/Projets_GIT/uneviedefourmi/build
-
-//Value Computed by CMake
-vie_fourmi_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-vie_fourmi_SOURCE_DIR:STATIC=C:/Projets_GIT/uneviedefourmi
 
 
 ########################

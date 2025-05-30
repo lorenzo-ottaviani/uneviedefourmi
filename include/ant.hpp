@@ -1,4 +1,5 @@
-# pragma once
+#pragma once
+
 #include <string>
 
 class Ant {
@@ -12,7 +13,14 @@ public:
     Ant(int AntNumber);
 
     /* Getters */
-    int getNumber() const;
-    std::string getRoom() const;
-    std::string getStatus() const;
+    int get_number() const;
+    std::string get_room() const;
+    std::string get_status() const;
+
+    /* Display information */
+    void display() const;
+
+    /* Methods */
+    void move(std::string room);
+    void change_status();
 };
