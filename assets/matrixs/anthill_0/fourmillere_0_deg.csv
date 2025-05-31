@@ -1,5 +1,5 @@
-﻿;Vestibule;Salle 1;Salle 2;Dortoir
-Vestibule;2;0;0;0
-Salle 1;0;2;0;0
-Salle 2;0;0;2;0
-Dortoir;0;0;0;2
+﻿,Vestibule,Salle 1,Salle 2,Dortoir
+Vestibule,2,0,0,0
+Salle 1,0,2,0,0
+Salle 2,0,0,2,0
+Dortoir,0,0,0,2
