@@ -1,0 +1,9 @@
+﻿,Vestibule,Salle 1,Salle 2,Salle 3,Salle 4,Salle 5,Salle 6,Dortoir
+Vestibule,0,1,0,0,0,0,0,0
+Salle 1,1,0,1,1,0,0,0,0
+Salle 2,0,1,0,0,1,0,0,0
+Salle 3,0,0,0,0,1,0,0,0
+Salle 4,0,0,1,1,0,1,1,0
+Salle 5,0,0,0,0,1,0,0,1
+Salle 6,0,0,0,0,1,0,0,1
+Dortoir,0,0,0,0,1,1,1,0

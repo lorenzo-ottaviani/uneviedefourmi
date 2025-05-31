@@ -1,0 +1,5 @@
+﻿,Vestibule,Salle 1,Salle 2,Dortoir
+Vestibule,0,1,0,0
+Salle 1,1,0,1,0
+Salle 2,0,1,0,1
+Dortoir,0,0,1,0
