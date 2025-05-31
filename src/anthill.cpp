@@ -2,15 +2,19 @@
 #include <cctype>
 #include <fstream>
 #include <iostream>
+#include <queue>
 #include <regex>
 #include <string>
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 
 #include "anthill.hpp"
 
 /* Constructor */
-Anthill::Anthill() {
+Anthill::Anthill()
+    : start("Sv")
+{
     ant_number = parse_ant_number();
     graph = parse_graph();
     empty_places = parse_empty_places();
@@ -21,11 +25,11 @@ int Anthill::get_ant_number() const {
     return ant_number;
 }
 
-std::unordered_map<std::string, std::vector<std::string>> Anthill::get_graph() const {
+const std::unordered_map<std::string, std::vector<std::string>>& Anthill::get_graph() const {
     return graph;
 }
 
-std::unordered_map<std::string, int> Anthill::get_empty_places() const {
+const std::unordered_map<std::string, int>& Anthill::get_empty_places() const {
     return empty_places;
 }
 
@@ -121,4 +125,26 @@ std::unordered_map<std::string, int> Anthill::parse_empty_places() {
     }
 
     return empty_map;
+}
+
+void Anthill::bfs() {
+    std::unordered_set<std::string> visited;
+    std::queue<std::string> queue;
+    queue.push(start);
+
+    while (!queue.empty()) {
+        std::string node = queue.front();
+        queue.pop();
+
+        if (visited.find(node) == visited.end()) {
+            std::cout << node << " ";
+            visited.insert(node);
+            auto it = graph.find(node);
+            if (it != graph.end()) {
+                for (const std::string& adjacent : it->second) {
+                    queue.push(adjacent);
+                }
+            }
+        }
+    }
 }

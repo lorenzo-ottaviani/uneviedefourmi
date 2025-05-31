@@ -40,6 +40,10 @@ int main() {
     for (const auto& [room, capacity] : empty_places) {
         std::cout << room << " : " << capacity << std::endl;
     }
+    std::cout << std::endl;
+
+    anthill_test.bfs();
+    std::cout << "\n" << std::endl;
 
     Ant ant_1(1);
     ant_1.display();
