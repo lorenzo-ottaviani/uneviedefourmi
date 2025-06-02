@@ -201,10 +201,6 @@ void Anthill::create_ants() {
  * The start and end rooms have infinite capacity; other rooms have limited capacity defined in available_places.
  * Displays each ant’s movement at every step.
  */
-/**
- * Simulates the movement of ants one room at a time per step.
- * Ensures that each ant moves only once per step and that room capacities are respected.
- */
 void Anthill::simulate_movement() {
     int step = 0;
 
